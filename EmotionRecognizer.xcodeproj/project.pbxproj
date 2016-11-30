@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7AF3BE01DEED10C007C3C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3BDF1DEED10C007C3C2A /* AppDelegate.swift */; };
+		A7AF3BE21DEED10C007C3C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3BE11DEED10C007C3C2A /* ViewController.swift */; };
+		A7AF3BE51DEED10C007C3C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AF3BE31DEED10C007C3C2A /* Main.storyboard */; };
+		A7AF3BE71DEED10C007C3C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7AF3BE61DEED10C007C3C2A /* Assets.xcassets */; };
+		A7AF3BEA1DEED10C007C3C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AF3BE81DEED10C007C3C2A /* LaunchScreen.storyboard */; };
+		A7AF3BF51DEED10D007C3C2A /* EmotionRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3BF41DEED10D007C3C2A /* EmotionRecognizerTests.swift */; };
+		A7AF3C001DEED10D007C3C2A /* EmotionRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF3BFF1DEED10D007C3C2A /* EmotionRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AF3BF11DEED10D007C3C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AF3BD41DEED10C007C3C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AF3BDB1DEED10C007C3C2A;
+			remoteInfo = EmotionRecognizer;
+		};
+		A7AF3BFC1DEED10D007C3C2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AF3BD41DEED10C007C3C2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AF3BDB1DEED10C007C3C2A;
+			remoteInfo = EmotionRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7AF3BDC1DEED10C007C3C2A /* EmotionRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AF3BDF1DEED10C007C3C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7AF3BE11DEED10C007C3C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7AF3BE41DEED10C007C3C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7AF3BE61DEED10C007C3C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7AF3BE91DEED10C007C3C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7AF3BEB1DEED10C007C3C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AF3BF01DEED10D007C3C2A /* EmotionRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AF3BF41DEED10D007C3C2A /* EmotionRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecognizerTests.swift; sourceTree = "<group>"; };
+		A7AF3BF61DEED10D007C3C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AF3BFB1DEED10D007C3C2A /* EmotionRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AF3BFF1DEED10D007C3C2A /* EmotionRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecognizerUITests.swift; sourceTree = "<group>"; };
+		A7AF3C011DEED10D007C3C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AF3BD91DEED10C007C3C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BED1DEED10D007C3C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BF81DEED10D007C3C2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7AF3BD31DEED10C007C3C2A = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BDE1DEED10C007C3C2A /* EmotionRecognizer */,
+				A7AF3BF31DEED10D007C3C2A /* EmotionRecognizerTests */,
+				A7AF3BFE1DEED10D007C3C2A /* EmotionRecognizerUITests */,
+				A7AF3BDD1DEED10C007C3C2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AF3BDD1DEED10C007C3C2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BDC1DEED10C007C3C2A /* EmotionRecognizer.app */,
+				A7AF3BF01DEED10D007C3C2A /* EmotionRecognizerTests.xctest */,
+				A7AF3BFB1DEED10D007C3C2A /* EmotionRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AF3BDE1DEED10C007C3C2A /* EmotionRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BDF1DEED10C007C3C2A /* AppDelegate.swift */,
+				A7AF3BE11DEED10C007C3C2A /* ViewController.swift */,
+				A7AF3BE31DEED10C007C3C2A /* Main.storyboard */,
+				A7AF3BE61DEED10C007C3C2A /* Assets.xcassets */,
+				A7AF3BE81DEED10C007C3C2A /* LaunchScreen.storyboard */,
+				A7AF3BEB1DEED10C007C3C2A /* Info.plist */,
+			);
+			path = EmotionRecognizer;
+			sourceTree = "<group>";
+		};
+		A7AF3BF31DEED10D007C3C2A /* EmotionRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BF41DEED10D007C3C2A /* EmotionRecognizerTests.swift */,
+				A7AF3BF61DEED10D007C3C2A /* Info.plist */,
+			);
+			path = EmotionRecognizerTests;
+			sourceTree = "<group>";
+		};
+		A7AF3BFE1DEED10D007C3C2A /* EmotionRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AF3BFF1DEED10D007C3C2A /* EmotionRecognizerUITests.swift */,
+				A7AF3C011DEED10D007C3C2A /* Info.plist */,
+			);
+			path = EmotionRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AF3BDB1DEED10C007C3C2A /* EmotionRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AF3C041DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizer" */;
+			buildPhases = (
+				A7AF3BD81DEED10C007C3C2A /* Sources */,
+				A7AF3BD91DEED10C007C3C2A /* Frameworks */,
+				A7AF3BDA1DEED10C007C3C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionRecognizer;
+			productName = EmotionRecognizer;
+			productReference = A7AF3BDC1DEED10C007C3C2A /* EmotionRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7AF3BEF1DEED10D007C3C2A /* EmotionRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AF3C071DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizerTests" */;
+			buildPhases = (
+				A7AF3BEC1DEED10D007C3C2A /* Sources */,
+				A7AF3BED1DEED10D007C3C2A /* Frameworks */,
+				A7AF3BEE1DEED10D007C3C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AF3BF21DEED10D007C3C2A /* PBXTargetDependency */,
+			);
+			name = EmotionRecognizerTests;
+			productName = EmotionRecognizerTests;
+			productReference = A7AF3BF01DEED10D007C3C2A /* EmotionRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7AF3BFA1DEED10D007C3C2A /* EmotionRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AF3C0A1DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizerUITests" */;
+			buildPhases = (
+				A7AF3BF71DEED10D007C3C2A /* Sources */,
+				A7AF3BF81DEED10D007C3C2A /* Frameworks */,
+				A7AF3BF91DEED10D007C3C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AF3BFD1DEED10D007C3C2A /* PBXTargetDependency */,
+			);
+			name = EmotionRecognizerUITests;
+			productName = EmotionRecognizerUITests;
+			productReference = A7AF3BFB1DEED10D007C3C2A /* EmotionRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AF3BD41DEED10C007C3C2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dmytro Hrek";
+				TargetAttributes = {
+					A7AF3BDB1DEED10C007C3C2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A7AF3BEF1DEED10D007C3C2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7AF3BDB1DEED10C007C3C2A;
+					};
+					A7AF3BFA1DEED10D007C3C2A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7AF3BDB1DEED10C007C3C2A;
+					};
+				};
+			};
+			buildConfigurationList = A7AF3BD71DEED10C007C3C2A /* Build configuration list for PBXProject "EmotionRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7AF3BD31DEED10C007C3C2A;
+			productRefGroup = A7AF3BDD1DEED10C007C3C2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7AF3BDB1DEED10C007C3C2A /* EmotionRecognizer */,
+				A7AF3BEF1DEED10D007C3C2A /* EmotionRecognizerTests */,
+				A7AF3BFA1DEED10D007C3C2A /* EmotionRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AF3BDA1DEED10C007C3C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF3BEA1DEED10C007C3C2A /* LaunchScreen.storyboard in Resources */,
+				A7AF3BE71DEED10C007C3C2A /* Assets.xcassets in Resources */,
+				A7AF3BE51DEED10C007C3C2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BEE1DEED10D007C3C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BF91DEED10D007C3C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AF3BD81DEED10C007C3C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF3BE21DEED10C007C3C2A /* ViewController.swift in Sources */,
+				A7AF3BE01DEED10C007C3C2A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BEC1DEED10D007C3C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF3BF51DEED10D007C3C2A /* EmotionRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AF3BF71DEED10D007C3C2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AF3C001DEED10D007C3C2A /* EmotionRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AF3BF21DEED10D007C3C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AF3BDB1DEED10C007C3C2A /* EmotionRecognizer */;
+			targetProxy = A7AF3BF11DEED10D007C3C2A /* PBXContainerItemProxy */;
+		};
+		A7AF3BFD1DEED10D007C3C2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AF3BDB1DEED10C007C3C2A /* EmotionRecognizer */;
+			targetProxy = A7AF3BFC1DEED10D007C3C2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7AF3BE31DEED10C007C3C2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AF3BE41DEED10C007C3C2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AF3BE81DEED10C007C3C2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AF3BE91DEED10C007C3C2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AF3C021DEED10D007C3C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7AF3C031DEED10D007C3C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AF3C051DEED10D007C3C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmotionRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7AF3C061DEED10D007C3C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmotionRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7AF3C081DEED10D007C3C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmotionRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionRecognizer.app/EmotionRecognizer";
+			};
+			name = Debug;
+		};
+		A7AF3C091DEED10D007C3C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmotionRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmotionRecognizer.app/EmotionRecognizer";
+			};
+			name = Release;
+		};
+		A7AF3C0B1DEED10D007C3C2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmotionRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EmotionRecognizer;
+			};
+			name = Debug;
+		};
+		A7AF3C0C1DEED10D007C3C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EmotionRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ciklum.EmotionRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EmotionRecognizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AF3BD71DEED10C007C3C2A /* Build configuration list for PBXProject "EmotionRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AF3C021DEED10D007C3C2A /* Debug */,
+				A7AF3C031DEED10D007C3C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AF3C041DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AF3C051DEED10D007C3C2A /* Debug */,
+				A7AF3C061DEED10D007C3C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7AF3C071DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AF3C081DEED10D007C3C2A /* Debug */,
+				A7AF3C091DEED10D007C3C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7AF3C0A1DEED10D007C3C2A /* Build configuration list for PBXNativeTarget "EmotionRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AF3C0B1DEED10D007C3C2A /* Debug */,
+				A7AF3C0C1DEED10D007C3C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7AF3BD41DEED10C007C3C2A /* Project object */;
+}
