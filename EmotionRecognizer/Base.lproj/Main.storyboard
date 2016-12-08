@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmotionRecognizer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,8 +20,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emotion Recognizer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iP-j7-vz5">
+                                <rect key="frame" x="111" y="28" width="153" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1VB-eu-31k">
+                                <rect key="frame" x="26" y="58.5" width="322" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="322" id="O8f-m8-0Tq"/>
+                                    <constraint firstAttribute="height" constant="200" id="Wju-3L-8Qh"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="CMB-ey-6ru">
+                                <rect key="frame" x="41" y="268.5" width="292" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9y-Fr-hki">
+                                        <rect key="frame" x="0.0" y="0.0" width="73" height="30"/>
+                                        <state key="normal" title="Anger"/>
+                                        <connections>
+                                            <action selector="findEmotion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iWi-lf-Sew"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kog-Tf-dkw">
+                                        <rect key="frame" x="73" y="0.0" width="73" height="30"/>
+                                        <state key="normal" title="Surprise"/>
+                                        <connections>
+                                            <action selector="findEmotion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mA9-1B-Uvd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k94-dP-piN">
+                                        <rect key="frame" x="146" y="0.0" width="73" height="30"/>
+                                        <state key="normal" title="Happiness"/>
+                                        <connections>
+                                            <action selector="findEmotion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYE-tF-GsK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6Y-vc-4Nd">
+                                        <rect key="frame" x="219" y="0.0" width="73" height="30"/>
+                                        <state key="normal" title="Disgust"/>
+                                        <connections>
+                                            <action selector="findEmotion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYg-6q-piD"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5iP-j7-vz5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="208-XM-1KI"/>
+                            <constraint firstItem="1VB-eu-31k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5yU-1x-4jK"/>
+                            <constraint firstItem="CMB-ey-6ru" firstAttribute="centerX" secondItem="1VB-eu-31k" secondAttribute="centerX" id="FfE-Gi-Uf4"/>
+                            <constraint firstItem="1VB-eu-31k" firstAttribute="top" secondItem="5iP-j7-vz5" secondAttribute="bottom" constant="10" id="TTe-01-kSp"/>
+                            <constraint firstItem="5iP-j7-vz5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="nuU-Ae-FUI"/>
+                            <constraint firstItem="CMB-ey-6ru" firstAttribute="top" secondItem="1VB-eu-31k" secondAttribute="bottom" constant="10" id="oMK-Qp-Dda"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="1VB-eu-31k" id="ucA-GU-AGU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
