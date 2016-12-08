@@ -67,6 +67,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ViH-9b-hsp">
+                                <rect key="frame" x="177" y="148" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="aoW-6O-uYS"/>
+                                    <constraint firstAttribute="width" constant="20" id="mlA-D9-wVn"/>
+                                </constraints>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -74,12 +81,15 @@
                             <constraint firstItem="1VB-eu-31k" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5yU-1x-4jK"/>
                             <constraint firstItem="CMB-ey-6ru" firstAttribute="centerX" secondItem="1VB-eu-31k" secondAttribute="centerX" id="FfE-Gi-Uf4"/>
                             <constraint firstItem="1VB-eu-31k" firstAttribute="top" secondItem="5iP-j7-vz5" secondAttribute="bottom" constant="10" id="TTe-01-kSp"/>
+                            <constraint firstItem="ViH-9b-hsp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bWb-ei-Ko3"/>
                             <constraint firstItem="5iP-j7-vz5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="nuU-Ae-FUI"/>
                             <constraint firstItem="CMB-ey-6ru" firstAttribute="top" secondItem="1VB-eu-31k" secondAttribute="bottom" constant="10" id="oMK-Qp-Dda"/>
+                            <constraint firstItem="ViH-9b-hsp" firstAttribute="centerY" secondItem="1VB-eu-31k" secondAttribute="centerY" id="xsg-vu-Ja0"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="1VB-eu-31k" id="ucA-GU-AGU"/>
+                        <outlet property="spinner" destination="ViH-9b-hsp" id="Bi0-Ov-Wm1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

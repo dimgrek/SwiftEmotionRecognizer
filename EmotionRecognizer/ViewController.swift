@@ -43,29 +43,36 @@ class ViewController: UIViewController {
         set{
             imageView.image = newValue
             imageView.sizeToFit()
+            spinner?.stopAnimating()
         }
     }
     
     private func fetchImage() {
-        if let url = imageUrl{
-            // Move to a background thread to do some long running work
+        if let url = imageUrl {
+            spinner?.startAnimating()
+
             DispatchQueue.global().async {
                 let contentsOf = NSData(contentsOf: url as URL)
-                // Bounce back to the main thread to update the UI
+                
                 DispatchQueue.main.async {
                     if url == self.imageUrl{
                         if let imageData = contentsOf{
                             self.image = UIImage(data: imageData as Data)
-                        }else{
-                            print("ignored data returned from url \(url)")
+                        } else{
+                            self.spinner?.stopAnimating()
                         }
+                    }else{
+                        print("ignored data returned from url \(url)")
                     }
                 }
             }
         }
     }
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+    
     
     @IBAction func findEmotion(_ sender: UIButton) {
+
         imageUrl = EmotionUrlNamed(imageN: sender.currentTitle)
     }
     
@@ -73,6 +80,9 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var imageView: UIImageView!
+    
+    override func viewDidLoad() {
+    }
     
 }
 
